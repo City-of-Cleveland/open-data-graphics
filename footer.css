@@ -14,6 +14,16 @@
       justify-content: center;
   }
   
+.nav-pills a {
+    color:#ffffff;
+    border-bottom: 5px solid transparent; /* Add this line */
+}
+
+.nav-pills a:hover {
+    background-image:none;
+    border-bottom: 5px solid #ffffff;
+}
+  
   li a {
     color:#ffffff;
   }
